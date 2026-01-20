@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include "partials/head.html" %}
+<body>
+    {% include "partials/header.html" %}
+    <main>
+        <h2>{{ title }}</h2>
+        <p><strong><time datetime="{{ date | correctISO }}">{{ date | niceDate }}</time></strong></p>
+        {{ content | safe }}
+        <strong>Tags:</strong>
+        {% for tag in tags | filterTagList | sortTags %}
+            <a href="/tags/{{ tag | slug }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+        {% endfor %}
+        <br>
+        <strong>Subscribe:</strong> <a href="./feed.xml">RSS/Atom feed</a> for your reader of choice.
+    </main>
+    <footer>{% include "partials/footer.html" %}</footer>
+</body>
+</html>

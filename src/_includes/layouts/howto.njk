@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include "partials/head.html" %}
+<body>
+    {% include "partials/header.html" %}
+    <main>
+        {{ content | safe }}
+        {% for posts in collections.howto %}
+        <article>
+            <strong><a href="{{ posts.url }}">{{ posts.data.title }}</a></strong><br>
+            <em>{{ posts.data.blurb }}</em><br>
+        </article>
+        {% endfor %}
+    </main>
+    <footer>
+        {% include "partials/footer.html" %}
+    </footer>
+</body>
+</html>

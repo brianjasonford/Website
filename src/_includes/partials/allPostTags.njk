@@ -1,0 +1,16 @@
+<!-- Get all the tags from posts, filter "all" an "posts", sort alphabetically -->
+
+{% set allTags = [] %}
+{% for post in collections.all %}
+    {% if post.data.tags %}
+        {% for tag in post.data.tags %}
+            {% if tag not in allTags %}
+                {% set allTags = allTags.concat([tag]) %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+
+{% for tag in allTags | filterTagList | sortTags %}
+    <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+{% endfor %}

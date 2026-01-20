@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include "partials/head.html" %}
+<body>
+    {% include "partials/header.html" %}
+    <main>
+        {{ content | safe }}
+        <h2>✍️ All Posts</h2>
+        {% for posts in collections.myPostsReverse %}
+        <article>
+            <strong>{{ posts.data.date | correctISO }} &mdash; <a href="{{ posts.url }}">{{ posts.data.title }}</a></strong><br>
+            <em>{{ posts.data.blurb }}</em><br>
+            Tags: {% for tags in posts.data.tags | filterTagList | sortTags %}
+                <a href="/tags/{{ tags | slug }}">{{ tags }}</a>{% if not loop.last %}, {% endif %}
+            {% endfor %}
+        </article>
+        {% endfor %}
+    </main>
+    <footer>
+        {% include "partials/footer.html" %}
+    </footer>
+</body>
+</html>

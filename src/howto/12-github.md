@@ -25,7 +25,7 @@ public
 3. Made a [Github](https://github.com) account.
 4. Connected [VS Code](https://code.visualstudio.com) to the Github account.
 5. In the Source Control section of VS Code, clicked "Initialize Repository." It looks like this:
-IMAGE
+![A screenshot of VS Code's Source Control area](/images/sourceControl.png)
 6. This brings up a spot for a message and a "Commit" button. I typed "First Commit" in the message, then clicked the button. 
 7. After clicking "Commit," the button changes to "Publish to Branch" with another comment field. I wrote "The first Publish Branch for my website." and I clicked the button. This brought me to a pull down asking if the branch should be public or private. I clicked public.
 8. This saved the website files to Github and prompted me to visit the repository page where they are saved. Once there, Github prompted me to add a README file. Again, I pushed the button. This created `README.md` in the repository.

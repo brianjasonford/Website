@@ -11,7 +11,7 @@ Almost always, when I finish a book, I know whether or not I enjoyed it. I canno
     <img src="/images/understandTheWorld.jpg" alt="Cover image of When We Cease to Understand the World"> 
 </p>
 
-The jury is still out as to whether I enjoyed this book, others certainly did. Sam Sacks, writing for The Wall Street Journal wrote [a very positive review](https://www.wsj.com/arts-culture/books/fiction-review-richard-powers-bewilderment-benjamin-labatut-when-we-cease-to-understand-the-world). President Obama also [recommended](https://barackobama.medium.com/my-2021-end-of-year-lists-82d200e3eb81) it, even if it was not one of his "favorite books of 2021." 
+While the jury is still out as to whether I enjoyed this book, others certainly did. Sam Sacks, writing for The Wall Street Journal wrote [a very positive review](https://www.wsj.com/arts-culture/books/fiction-review-richard-powers-bewilderment-benjamin-labatut-when-we-cease-to-understand-the-world). President Obama also [recommended](https://barackobama.medium.com/my-2021-end-of-year-lists-82d200e3eb81) it, even if it was not one of his "favorite books of 2021." 
 
 Taken as a whole, Labatut presents a series of stories about scientists (all white men) who struggle with the world-altering repercussions of their work. As these men either fall into depravity or lose their minds or both, we, the audience, see how discovery and advancement are inextricably intertwined with horror and destruction. We see how attempting to know the unknowable yields madness. 
 
